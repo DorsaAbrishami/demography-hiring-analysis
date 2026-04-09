@@ -1,0 +1,8 @@
+U.S. Labor Market Demography Analysis - Key Insights
+========================================================
+
+1) Employment gap trend: The men-women employment gap decreased by 1,567.00 (thousands). This indicates whether parity improved or weakened over this period.
+2) Attribution of gap change: Men employment increased by 74.00, while women employment increased by 1,641.00. This shows whether gap movement is driven by women catching up, men slowing, or both.
+3) Participation vs unemployment: Average participation gap is 10.43 percentage points, while average unemployment gap is 0.15 points. The larger and more persistent driver is typically participation in this sample.
+4) Unemployment experience: Average men unemployment is 4.23% vs women 4.08%. This quantifies whether one group consistently faces higher joblessness.
+5) Prime-age context: Prime-age employment increased by 1,534.00 (thousands). Comparing this with total gender trends helps separate broad labor demand from demographic composition effects.
