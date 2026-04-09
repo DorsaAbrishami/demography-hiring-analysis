@@ -55,13 +55,32 @@ All datasets are from the BLS Current Population Survey and are stored in `data/
    - Prime-age employment trend
    - Participation vs unemployment driver view
 
-## Key Findings (Current Sample Window)
+## Key Findings
 
-- The employment gap narrowed by about **1,567 thousand** (from ~8,941 to ~7,374), indicating improved gender parity in employment levels.
-- Women employment increased substantially more than men in this period (women: **+1,641 thousand**, men: **+74 thousand**), suggesting the narrowing gap was primarily women-side improvement.
-- Participation differences appear much larger than unemployment differences (average participation gap: **~10.43 pp** vs unemployment gap: **~0.15 pp**), indicating participation is the stronger structural driver of the employment gap.
-- Men unemployment was slightly higher on average than women unemployment in this sample (~4.23% vs ~4.08%).
-- Prime-age employment increased by **~1,534 thousand**, consistent with a generally expanding labor market backdrop.
+These takeaways are based on **monthly, seasonally adjusted** BLS series from early 2024 through early 2026. Numbers are directional for this sample window, not long-run forecasts.
+
+### Labor market and gender patterns
+
+- **Employment:** Women’s employment rose much more than men’s in level terms (thousands of workers), while men’s employment was comparatively flat. The **gender employment gap (men minus women) narrowed**—so improved parity here is driven mainly by **women’s gains**, not by large male employment losses.
+- **Unemployment:** Men’s unemployment rate is **slightly higher on average** than women’s; the **unemployment gap is small** relative to other differences—joblessness is not the dominant story compared with **labor force attachment**.
+- **Participation:** Men’s labor force participation exceeds women’s by about **ten percentage points on average**. That **persistent participation gap** is far larger than the unemployment-rate gap, which supports framing the **employment-level gap** as **participation-heavy** in this period: *who is in the labor force* matters more than *who is unemployed among those in the labor force*.
+- **Prime age (25–54):** Prime-age employment **rose** over the window, consistent with **broad labor demand** for core working-age adults. Gender trends should be read **within** that macro context.
+
+### Data availability gap
+
+- **October 2025 is missing** in every source file used here (BLS `-` treated as missing). Charts show a **break** between September and November 2025; **November–December 2025 and January 2026 are present**.
+- **Why it matters:** You cannot interpret a smooth trend through that month or trust **month-over-month** steps that would cross October without calling out the hole.
+- **What we did:** **No imputation**—missing stays missing; findings emphasize valid months and transparent documentation.
+
+### How this maps to the business questions
+
+| Question | Takeaway |
+|----------|----------|
+| How has the employment gap changed? | It **narrowed**, with **women’s employment growing faster** than men’s. |
+| Participation vs. unemployment? | **Participation differences dominate** in magnitude; unemployment spreads are secondary here. |
+| Unemployment by gender? | **Men slightly higher on average**; gap is modest. |
+| Prime-age vs. overall? | **Prime-age employment rose**; gender story sits inside a generally **stronger core labor market** reading. |
+| Women up, men down, or both? | Mostly **women up**; men **roughly flat**—not a “men declining” story in these levels. |
 
 ## Outputs
 
