@@ -1,6 +1,7 @@
 ## Example Insight
 
 ![Men vs Women Employment](outputs/01_men_vs_women_employment.png)
+The chart shows how employment trends differ between men and women over time, highlighting a gradual shift in workforce dynamics.
 
 # Demography Hiring Analysis
 
