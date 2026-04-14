@@ -1,6 +1,6 @@
 ## Example Insight
 
-![Employment Gap](outputs/02_employment_gap_over_time.png)
+![Men vs Women Employment](outputs/01_men_vs_women_employment.png)
 
 # Demography Hiring Analysis
 
