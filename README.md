@@ -1,6 +1,39 @@
+## Example Insight
+
+![Employment Gap](outputs/02_employment_gap_over_time.png)
+
 # Demography Hiring Analysis
 
-This project analyzes demographic patterns in the U.S. labor market using Bureau of Labor Statistics (BLS) time series. The analysis focuses on gender differences in employment, unemployment, and labor force participation, and compares overall trends with prime-age (25-54) employment.
+This project simulates how a company can replace inefficient Excel-based workforce reporting with an automated analytics pipeline using real labor market data from the Bureau of Labor Statistics (BLS).
+
+
+## Why This Project Matters
+
+Many organizations rely on fragmented Excel files and manual processes to understand workforce trends. This project demonstrates how those inefficiencies can be replaced with a structured, automated approach to analyzing labor market data.
+
+By transforming raw labor statistics into a clean, unified dataset, this analysis makes it possible to quickly answer critical business questions such as:
+
+- Are unemployment trends different between men and women?
+- Is workforce participation increasing or declining?
+- Where are potential labor shortages or disengagement risks?
+- Are there gaps between employment growth and participation?
+
+Instead of manually combining multiple files and performing repetitive calculations, this project automates the entire workflow and produces clear, decision-ready insights.
+
+### Business Value
+
+- Enables faster and more reliable reporting
+- Reduces manual data handling errors
+- Identifies workforce trends that impact hiring and planning
+- Supports data-driven decisions for recruiting and workforce strategy
+
+## What I Did
+
+- Built a reusable pipeline to clean and standardize multiple raw data files
+- Combined fragmented datasets into one unified analysis table
+- Automated repetitive Excel-style transformations using Python
+- Created business-focused metrics such as employment and participation gaps
+- Translated raw data into clear insights and decision-ready visualizations
 
 ## Project Overview
 
@@ -54,6 +87,12 @@ All datasets are from the BLS Current Population Survey and are stored in `data/
    - Participation comparison
    - Prime-age employment trend
    - Participation vs unemployment driver view
+
+   ## Why This Matters for Decision-Making
+
+This analysis shows that workforce differences are driven more by participation than unemployment, meaning the main challenge is not job availability but workforce engagement.
+
+For a business or recruiting team, this insight can shift focus from hiring volume to understanding why certain groups are less active in the labor force.
 
 ## Key Findings
 
